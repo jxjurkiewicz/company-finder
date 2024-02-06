@@ -15,6 +15,12 @@ const config: Config = {
       },
       fontFamily: {
         poppins: "Poppins",
+        guerrilla: "Protest Guerrilla",
+      },
+      colors: {
+        color: "var(--color)",
+        background: "var(--background)",
+        "blue-100": "var(--blue-100)",
       },
     },
   },

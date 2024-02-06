@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Wyszukiwarka firm po NIP",
+  title: "Wyszukiwarka firm",
   description: "Wpisz NIP, a my wyświetlimy dla Ciebie szczegółowe dane firmy.",
 };
 
@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} font-poppins`}>{children}</body>
+      <body className="font-poppins md:px-0 px-5">{children}</body>
     </html>
   );
 }
